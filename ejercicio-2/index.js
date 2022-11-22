@@ -1,9 +1,9 @@
-function darDatosUsuario(nombreUsuario, edadUsuario){
+function darDatosUsuario(nombreUsuario, edadUsuario) {
     return `${nombreUsuario} tiene ${edadUsuario} años`;
 }
 
-function AvisarSiEsAdulto(edadUsuario){
-    if(edadUsuario>=18){
+function AvisarSiEsAdulto(edadUsuario) {
+    if (edadUsuario >= 18) {
         return "es un adulto";
     } else {
         return "no es adulto";
@@ -11,13 +11,15 @@ function AvisarSiEsAdulto(edadUsuario){
 }
 
 const usuarios = [{
-    nombre : "carla",
+    nombre: "carla",
     edad: 30
-}, 
-{   nombre : "nora",
+},
+{
+    nombre: "nora",
     edad: 21
-}, 
-{   nombre : "luis",
+},
+{
+    nombre: "luis",
     edad: 10
 }];
 
