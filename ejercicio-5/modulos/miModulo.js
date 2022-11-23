@@ -5,6 +5,10 @@ const autor = {
     apellido: "web"
 }
 
+// module.exports.direccionWeb= direccionWeb;
+// module.exports.telefono= telefono;
+// module.exports.autor = autor;
+
 module.exports = {
     direccionWeb,
     telefono,
