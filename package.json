@@ -1,0 +1,32 @@
+{
+  "name": "curso-node-principiantes-2.2",
+  "version": "1.0.0",
+  "description": "ejercicios del curso básico de Node.js creado por Fazt",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ejercicio-11/index.js",
+    "dev": "nodemon ejercicio-11/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iara-Pou/curso-node-principiantes-2.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "ejeciciosServers",
+    "ejercicios"
+  ],
+  "author": "Iara Pou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iara-Pou/curso-node-principiantes-2/issues"
+  },
+  "homepage": "https://github.com/Iara-Pou/curso-node-principiantes-2#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
