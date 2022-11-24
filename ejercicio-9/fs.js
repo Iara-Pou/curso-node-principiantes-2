@@ -17,6 +17,7 @@ fs.readFile("./texto/texto1.txt", "utf-8", function (err, data) {
         console.log(data)
     }
 });
+
 fs.readFile("./texto/texto2.txt", "utf-8", function (err, data) {
     if (err) {
         console.log(err)
@@ -25,4 +26,8 @@ fs.readFile("./texto/texto2.txt", "utf-8", function (err, data) {
     }
 });
 
-
+fs.writeFile("./texto/textoNuevo.txt", "esto es un texto nuevo", function (error) {
+    if (error) {
+        console.log(error);
+    }
+})
